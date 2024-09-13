@@ -1,9 +1,4 @@
-body {
-  all: unset;
-  /* height: 100vh; */
-}
-
-.logo-container {
+.logoContainer {
   display: flex;
   width: fit-content;
   height: fit-content;
@@ -14,28 +9,28 @@ body {
   border-radius: 3px;
 }
 
-.logo-image {
+.logoImage {
   width: 40px;
   height: 40px;
 }
 
-.logo-box {
+.logoBox {
   box-sizing: border-box;
   font-family: Cinzel;
   font-size: 13px;
   /* margin: 0 5px; */
 }
 
-.logo-box > div {
+.logoBox > div {
   display: flex;
   justify-content: center;
   height: 20px;
 }
 
-.logo-1 {
+.logo1 {
   align-items: end;
 }
 
-.logo-2 {
+.logo2 {
   align-items: start;
 }
